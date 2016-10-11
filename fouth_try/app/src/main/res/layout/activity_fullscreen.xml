@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.trofi.fouth_try.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|top"
+        android:background="@color/accent_material_light"
+        android:onClick="MyClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="СИМУЛЯТОР ВОЖАТОГО"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        />
+
+</FrameLayout>
